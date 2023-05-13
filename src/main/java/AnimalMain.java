@@ -4,6 +4,10 @@ public class AnimalMain {
     public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Animal> animal = new ArrayList<>();
+        Animal animal1 = new Animal("Chihuahua", true);
+        Animal animal2 = new Animal("Snek");
+        animal.add(animal1);
+        animal.add(animal2);
         System.out.println("Animal Menu ૮ ⚆ﻌ⚆ა");
         System.out.println("Entering nothing will stop the loop");
 

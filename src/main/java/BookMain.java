@@ -5,9 +5,12 @@ public class BookMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Book> books = new ArrayList<>();
-        books.add(new Book("Do Androids Dream of Electric Sheep?", 258, 1968));
-        books.add(new Book("The Code Breaker", 560, 2021));
-        books.add(new Book("The Hollow Chocolate Bunnies of the Apocalypse", 342, 2002));
+        Book book1 = new Book("Do Androids Dream of Electric Sheep?", 258, 1968);
+        Book book2 = new Book("The Code Breaker", 560);
+        Book book3 = new Book("The Hollow Chocolate Bunnies of the Apocalypse");
+        books.add(book1);
+        books.add(book2);
+        books.add(book3);
 
 
 

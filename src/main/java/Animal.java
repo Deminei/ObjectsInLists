@@ -7,6 +7,9 @@ public class Animal {
         this.name = animalName;
         this.dog = dog;
     }
+    public Animal(String animalName) {
+        this.name = animalName;
+    }
 
     //Getters
     public String getName() {

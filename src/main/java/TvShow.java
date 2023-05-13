@@ -9,6 +9,14 @@ public class TvShow {
         this.episodes = episodes;
         this.genre = showGenre;
     }
+    public TvShow(String showName, int episodes) {
+        this.name = showName;
+        this.episodes = episodes;
+    }
+    public TvShow(String showName) {
+        this.name = showName;
+    }
+
 
     public String getName() {
         return name;
@@ -18,6 +26,7 @@ public class TvShow {
         return episodes;
     }
     public String getGenre(){
+
         return genre;
     }
 

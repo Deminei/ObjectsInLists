@@ -8,6 +8,15 @@ public class Book {
         this.pages = bookPages;
         this.year = bookYear;
     }
+    public Book(String bookTitle, int bookPages) {
+        this.title = bookTitle;
+        this.pages = bookPages;
+
+    }
+    public Book(String bookTitle) {
+        this.title = bookTitle;
+
+    }
 
     public String getTitle() {
         return title;
@@ -17,6 +26,7 @@ public class Book {
         return pages;
     }
     public int getYear() {
+
         return year;
     }
 
